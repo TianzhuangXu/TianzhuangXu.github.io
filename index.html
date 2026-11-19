@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f3">
+  <title>Tianzhuang Xu | Operations, Networks &amp; Incentives</title>
+  <meta name="description" content="Tianzhuang Xu is a Ph.D. candidate at HKUST studying networks, incentives, and operations. Research, publications, and curriculum vitae.">
+  <meta property="og:title" content="Tianzhuang Xu | Academic Website">
+  <meta property="og:description" content="Ph.D. candidate at HKUST. Research on networks, incentives, and operations.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tianzhuangxu.github.io/">
+  <link rel="canonical" href="https://tianzhuangxu.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#about" aria-label="Tianzhuang Xu, home">Tianzhuang Xu<span class="wordmark-dot" aria-hidden="true">.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#background">Background</a>
+        <a href="assets/Tianzhuang_Xu_CV.pdf">CV <span class="pdf-label">PDF</span></a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page-shell">
+    <section class="intro" id="about" aria-labelledby="name">
+      <div class="intro-main">
+        <p class="eyebrow intro-eyebrow"><span class="tiny-network" aria-hidden="true">◌</span> Ph.D. candidate · HKUST · Academic job market</p>
+        <h1 id="name">Tianzhuang Xu</h1>
+        <p class="research-line">How connections <br>shape <em>decisions.</em></p>
+        <div class="bio">
+          <p>I am a Ph.D. candidate in Industrial Engineering and Decision Analytics at The Hong Kong University of Science and Technology, advised by Ying-Ju Chen. I expect to complete my Ph.D. in 2027.</p>
+          <p>My research examines how network structure shapes strategic behavior and how incentives influence diffusion and market outcomes. I use network theory and mechanism design to connect individual decisions with collective outcomes, with applications in referral marketing and supply networks.</p>
+        </div>
+        <p class="market-note" aria-label="Research interests"><span aria-hidden="true"></span>Social Networks · Network Economics · Network Theory · Mechanism Design</p>
+        <div class="intro-actions">
+          <a class="button" href="assets/Tianzhuang_Xu_CV.pdf">Curriculum vitae <span aria-hidden="true">↗</span><span class="sr-only"> (PDF)</span></a>
+          <a class="text-link" href="mailto:txuay@connect.ust.hk">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <aside class="network-panel" data-selected="diffusion" aria-label="Explore the research through networks">
+        <div class="network-kicker"><span>RESEARCH IN CONNECTION</span><span>Schematic examples</span></div>
+        <div class="network-controls" role="group" aria-label="Choose a network perspective" hidden>
+          <button type="button" data-network-theme="diffusion" aria-controls="network-diffusion" aria-pressed="true"><span aria-hidden="true">01</span> Diffusion</button>
+          <button type="button" data-network-theme="formation" aria-controls="network-formation" aria-pressed="false"><span aria-hidden="true">02</span> Formation</button>
+          <button type="button" data-network-theme="supply" aria-controls="network-supply" aria-pressed="false"><span aria-hidden="true">03</span> Supply</button>
+        </div>
+        <div class="network-views"><section class="network-view" id="network-diffusion" data-network-view="diffusion" aria-labelledby="diffusion-question">
+          <h2 class="network-question" id="diffusion-question">How do rewards shape diffusion?</h2>
+          <figure class="research-diagram">
+            <svg class="research-map" viewBox="0 0 480 310" role="img" aria-labelledby="diffusion-map-title diffusion-map-desc">
+  <title id="diffusion-map-title">Rewards and diffusion across a social network</title>
+  <desc id="diffusion-map-desc">Circles represent customers and lines represent social ties. Blue circles illustrate reached customers; open circles are not yet reached. A ring marks the seed customer. Arrows trace an illustrative referral path across a bridge between two communities. This is a schematic, not a simulation or empirical result.</desc>
+  <defs>
+    <pattern id="diffusion-grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#b7c0c5" opacity=".45"/></pattern>
+    <marker id="diffusion-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="currentColor" stroke-width="1.6"/></marker>
+  </defs>
+  <rect width="480" height="310" fill="url(#diffusion-grid)"/>
+
+  <ellipse class="map-community" cx="126" cy="155" rx="110" ry="114"/>
+  <ellipse class="map-community" cx="365" cy="162" rx="94" ry="114"/>
+  <line class="map-edge" x1="75" y1="152" x2="95" y2="80"/>
+<line class="map-edge" x1="75" y1="152" x2="148" y2="109"/>
+<line class="map-edge" x1="75" y1="152" x2="162" y2="177"/>
+<line class="map-edge" x1="75" y1="152" x2="118" y2="238"/>
+<line class="map-edge" x1="75" y1="152" x2="42" y2="222"/>
+<line class="map-edge" x1="75" y1="152" x2="33" y2="112"/>
+<line class="map-edge" x1="95" y1="80" x2="148" y2="109"/>
+<line class="map-edge" x1="95" y1="80" x2="33" y2="112"/>
+<line class="map-edge" x1="95" y1="80" x2="188" y2="56"/>
+<line class="map-edge" x1="148" y1="109" x2="162" y2="177"/>
+<line class="map-edge" x1="148" y1="109" x2="188" y2="56"/>
+<line class="map-edge" x1="148" y1="109" x2="223" y2="128"/>
+<line class="map-edge" x1="162" y1="177" x2="118" y2="238"/>
+<line class="map-edge" x1="162" y1="177" x2="223" y2="128"/>
+<line class="map-edge" x1="162" y1="177" x2="242" y2="207"/>
+<line class="map-edge" x1="118" y1="238" x2="42" y2="222"/>
+<line class="map-edge" x1="118" y1="238" x2="242" y2="207"/>
+<line class="map-edge" x1="188" y1="56" x2="223" y2="128"/>
+<line class="map-edge" x1="223" y1="128" x2="242" y2="207"/>
+<line class="map-edge" x1="223" y1="128" x2="286" y2="153"/>
+<line class="map-edge" x1="286" y1="153" x2="335" y2="84"/>
+<line class="map-edge" x1="286" y1="153" x2="376" y2="179"/>
+<line class="map-edge" x1="286" y1="153" x2="295" y2="214"/>
+<line class="map-edge" x1="335" y1="84" x2="395" y2="60"/>
+<line class="map-edge" x1="335" y1="84" x2="426" y2="133"/>
+<line class="map-edge" x1="335" y1="84" x2="376" y2="179"/>
+<line class="map-edge" x1="395" y1="60" x2="426" y2="133"/>
+<line class="map-edge" x1="426" y1="133" x2="376" y2="179"/>
+<line class="map-edge" x1="426" y1="133" x2="426" y2="239"/>
+<line class="map-edge" x1="376" y1="179" x2="426" y2="239"/>
+<line class="map-edge" x1="376" y1="179" x2="340" y2="252"/>
+<line class="map-edge" x1="376" y1="179" x2="295" y2="214"/>
+<line class="map-edge" x1="426" y1="239" x2="340" y2="252"/>
+<line class="map-edge" x1="340" y1="252" x2="295" y2="214"/>
+  <path class="map-route" d="M81 148 140 114 M154 111 215 126 M231 131 278 150 M292 147 330 92" marker-end="url(#diffusion-arrow)"/>
+  <circle class="map-seed-ring" cx="75" cy="152" r="17"/>
+<circle class="map-node is-reached" cx="75" cy="152" r="7"/>
+<circle class="map-node is-reached" cx="95" cy="80" r="5"/>
+<circle class="map-node is-reached" cx="148" cy="109" r="5"/>
+<circle class="map-node is-reached" cx="162" cy="177" r="5"/>
+<circle class="map-node is-reached" cx="118" cy="238" r="5"/>
+<circle class="map-node" cx="42" cy="222" r="5"/>
+<circle class="map-node is-reached" cx="33" cy="112" r="5"/>
+<circle class="map-node is-reached" cx="188" cy="56" r="5"/>
+<circle class="map-node is-reached" cx="223" cy="128" r="5"/>
+<circle class="map-node" cx="242" cy="207" r="5"/>
+<circle class="map-node is-reached" cx="286" cy="153" r="5"/>
+<circle class="map-node is-reached" cx="335" cy="84" r="5"/>
+<circle class="map-node" cx="395" cy="60" r="5"/>
+<circle class="map-node" cx="426" cy="133" r="5"/>
+<circle class="map-node" cx="376" cy="179" r="5"/>
+<circle class="map-node" cx="426" cy="239" r="5"/>
+<circle class="map-node" cx="340" cy="252" r="5"/>
+<circle class="map-node" cx="295" cy="214" r="5"/>
+  <path class="map-leader" d="M75 40 V130 M395 32 V49 M286 165 V272 H309"/>
+  <text class="map-label" x="22" y="29">Seed customer</text>
+  <text class="map-label" x="302" y="23">Not yet reached</text>
+  <text class="map-label" x="317" y="276">A bridge extends reach</text>
+  <text class="map-small" x="20" y="299">CUSTOMERS → REFERRALS → CAMPAIGN REACH</text>
+</svg>
+            <figcaption class="network-legend"><span><i class="legend-dot reached"></i>Reached customer</span><span><i class="legend-dot"></i>Not yet reached</span><span><i class="legend-line"></i>Social tie</span></figcaption>
+          </figure>
+          <p class="network-insight">Rewards change participation, which shapes campaign reach and profit. Network structure connects these individual decisions to the firm’s incentive design.</p>
+          <p class="network-method">Random graphs · Mechanism design</p>
+          <div class="network-papers"><a href="#jmp-title">Referral rewards <span>Job market paper ↗</span></a><a href="#diffusion-information-title">The value of network information <span>In progress ↗</span></a></div>
+        </section>
+        <section class="network-view" id="network-formation" data-network-view="formation" aria-labelledby="formation-question" hidden>
+          <h2 class="network-question" id="formation-question">How do local links shape a network?</h2>
+          <figure class="research-diagram">
+            <svg class="research-map" viewBox="0 0 480 310" role="img" aria-labelledby="formation-map-title formation-map-desc">
+  <title id="formation-map-title">Network growth through the discovery of interactions</title>
+  <desc id="formation-map-desc">Existing nodes are connected by solid lines. An orange line highlights an interaction encountered by a new entrant. Dashed lines show possible links from the entrant to the participants in that interaction. The diagram illustrates edge-based search; it does not claim that every possible link forms.</desc>
+  <defs>
+    <pattern id="formation-grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#b7c0c5" opacity=".45"/></pattern>
+    <marker id="formation-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="currentColor" stroke-width="1.6"/></marker>
+  </defs>
+  <rect width="480" height="310" fill="url(#formation-grid)"/>
+
+  <ellipse class="map-community" cx="193" cy="155" rx="161" ry="117"/>
+  <line class="map-edge" x1="49" y1="143" x2="89" y2="84"/>
+<line class="map-edge" x1="49" y1="143" x2="111" y2="200"/>
+<line class="map-edge" x1="49" y1="143" x2="157" y2="127"/>
+<line class="map-edge" x1="89" y1="84" x2="157" y2="127"/>
+<line class="map-edge" x1="89" y1="84" x2="158" y2="60"/>
+<line class="map-edge" x1="111" y1="200" x2="157" y2="127"/>
+<line class="map-edge" x1="111" y1="200" x2="190" y2="227"/>
+<line class="map-edge" x1="111" y1="200" x2="67" y2="252"/>
+<line class="map-edge" x1="157" y1="127" x2="158" y2="60"/>
+<line class="map-edge" x1="157" y1="127" x2="219" y2="83"/>
+<line class="map-edge" x1="157" y1="127" x2="257" y2="139"/>
+<line class="map-edge" x1="157" y1="127" x2="206" y2="176"/>
+<line class="map-edge" x1="158" y1="60" x2="219" y2="83"/>
+<line class="map-edge" x1="190" y1="227" x2="272" y2="255"/>
+<line class="map-edge" x1="190" y1="227" x2="322" y2="205"/>
+<line class="map-edge" x1="190" y1="227" x2="206" y2="176"/>
+<line class="map-edge" x1="219" y1="83" x2="257" y2="139"/>
+<line class="map-edge" x1="219" y1="83" x2="306" y2="53"/>
+<line class="map-edge" x1="257" y1="139" x2="322" y2="205"/>
+<line class="map-edge" x1="257" y1="139" x2="339" y2="113"/>
+<line class="map-edge" x1="257" y1="139" x2="206" y2="176"/>
+<line class="map-edge" x1="257" y1="139" x2="306" y2="53"/>
+<line class="map-edge" x1="272" y1="255" x2="322" y2="205"/>
+<line class="map-edge" x1="322" y1="205" x2="339" y2="113"/>
+<line class="map-edge" x1="322" y1="205" x2="206" y2="176"/>
+<line class="map-edge" x1="339" y1="113" x2="306" y2="53"/>
+  <line class="map-interaction" x1="257" y1="139" x2="322" y2="205"/>
+  <path class="map-proposed" d="M405 62 257 139 M405 62 322 205"/>
+  <circle class="map-node" cx="49" cy="143" r="5"/>
+<circle class="map-node" cx="89" cy="84" r="5"/>
+<circle class="map-node" cx="111" cy="200" r="5"/>
+<circle class="map-node" cx="157" cy="127" r="5"/>
+<circle class="map-node" cx="158" cy="60" r="5"/>
+<circle class="map-node" cx="190" cy="227" r="5"/>
+<circle class="map-node" cx="219" cy="83" r="5"/>
+<circle class="map-node" cx="257" cy="139" r="5"/>
+<circle class="map-node" cx="272" cy="255" r="5"/>
+<circle class="map-node" cx="322" cy="205" r="5"/>
+<circle class="map-node" cx="339" cy="113" r="5"/>
+<circle class="map-node" cx="206" cy="176" r="5"/>
+<circle class="map-node" cx="67" cy="252" r="5"/>
+<circle class="map-node" cx="306" cy="53" r="5"/>
+  <circle class="map-endpoint" cx="257" cy="139" r="7"/>
+  <circle class="map-endpoint" cx="322" cy="205" r="7"/>
+  <circle class="map-seed-ring" cx="405" cy="62" r="17"/>
+  <circle class="map-new-node" cx="405" cy="62" r="7"/>
+  <path class="map-leader" d="M405 34 V42 M287 176 366 238 H457"/>
+  <text class="map-label" x="356" y="23">New entrant</text>
+  <text class="map-label" x="343" y="257">Encounter an</text>
+  <text class="map-label" x="343" y="273">interaction</text>
+  <text class="map-small" x="20" y="299">LOCAL SEARCH → NEW LINKS → NETWORK STRUCTURE</text>
+</svg>
+            <figcaption class="network-legend"><span><i class="legend-dot"></i>Existing node</span><span><i class="legend-line highlighted"></i>Encountered interaction</span><span><i class="legend-line proposed"></i>Possible link</span></figcaption>
+          </figure>
+          <p class="network-insight">Discovering interactions before people can generate scale-free networks. An ongoing project asks whether learned models preserve network structure as growth continues.</p>
+          <p class="network-method">Stochastic growth · Learning on networks</p>
+          <div class="network-papers"><a href="#network-title">Edge-based network formation <span>Management Science ↗</span></a><a href="#learning-formation-title">Learning network formation <span>In progress ↗</span></a></div>
+        </section>
+        <section class="network-view" id="network-supply" data-network-view="supply" aria-labelledby="supply-question" hidden>
+          <h2 class="network-question" id="supply-question">Can more connections weaken a market?</h2>
+          <figure class="research-diagram">
+            <svg class="research-map" viewBox="0 0 480 310" role="img" aria-labelledby="supply-map-title supply-map-desc">
+  <title id="supply-map-title">Sourcing relationships and strategic responses</title>
+  <desc id="supply-map-desc">Squares represent suppliers and circles represent firms. Solid lines represent existing sourcing relationships. A dashed line adds a possible relationship from the third supplier to the first firm. A crossed supplier illustrates disruption risk. The diagram is conceptual: adding a link can change prices and orders throughout a network, and its effect on robustness depends on strategic responses.</desc>
+  <defs>
+    <pattern id="supply-grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#b7c0c5" opacity=".45"/></pattern>
+    <marker id="supply-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 9 5 1 9" fill="none" stroke="currentColor" stroke-width="1.6"/></marker>
+  </defs>
+  <rect width="480" height="310" fill="url(#supply-grid)"/>
+
+  <rect class="map-supply-band" x="20" y="48" width="440" height="69" rx="34"/>
+  <rect class="map-supply-band" x="20" y="197" width="440" height="69" rx="34"/>
+  <text class="map-small" x="20" y="26">SUPPLIERS · HETEROGENEOUS COSTS</text>
+  <g class="map-edge supply-edge">
+    <path d="M80 85 108 232 M240 85 108 232 M240 85 240 232 M240 85 372 232 M400 85 372 232"/>
+  </g>
+  <path class="map-proposed" d="M400 85 Q283 135 108 232"/>
+  <g class="map-supplier"><rect x="69" y="74" width="22" height="22" rx="3"/><rect x="229" y="74" width="22" height="22" rx="3"/><rect x="389" y="74" width="22" height="22" rx="3"/></g>
+  <g class="map-firm"><circle cx="108" cy="232" r="11"/><circle cx="240" cy="232" r="11"/><circle cx="372" cy="232" r="11"/></g>
+  <circle class="map-risk-ring" cx="240" cy="85" r="23"/>
+  <path class="map-risk-cross" d="M233 78 247 92 M247 78 233 92"/>
+  <path class="map-leader" d="M266 85 H297 V59 M316 145 H455"/>
+  <text class="map-label" x="282" y="48">Disruption risk</text>
+  <text class="map-label" x="345" y="137">An added link</text>
+  <text class="map-small" x="20" y="299">FIRMS · STRATEGIC PRICING &amp; ORDERING</text>
+</svg>
+            <figcaption class="network-legend"><span><i class="legend-square"></i>Supplier</span><span><i class="legend-dot reached"></i>Firm</span><span><i class="legend-line"></i>Sourcing relationship</span></figcaption>
+          </figure>
+          <p class="network-insight">Additional sourcing links can reduce expected output and worsen shortages when firms adjust their prices and orders. Selective connectivity can improve robustness.</p>
+          <p class="network-method">Network games · Equilibrium analysis</p>
+          <div class="network-papers"><a href="#supply-title">When Multi-sourcing Backfires <span>Under review ↗</span></a></div>
+        </section>
+        </div>
+        <p class="sr-only" id="network-announcement" aria-live="polite" aria-atomic="true"></p>
+      </aside>
+    </section>
+
+    <section class="content-section" id="research" aria-labelledby="research-heading">
+      <div class="section-heading"><h2 id="research-heading"><span class="section-number">01 /</span> Research</h2><span class="section-caption">Social networks &amp; supply networks</span></div>
+      <article class="featured-paper" aria-labelledby="jmp-title">
+        <p class="eyebrow">Job market paper</p>
+        <h3 id="jmp-title"><span class="paper-short-title">Aiming for All</span><span class="paper-subtitle">Optimal Design of Reward in Word-of-Mouth Marketing</span></h3>
+        <p class="authors"><strong>Tianzhuang Xu</strong>, Boer Ouyang, and Ying-Ju Chen</p>
+        <p>Referral rewards encourage customer participation but also increase firms’ costs. Our random-graph model links rewards to participation, diffusion, and profits, allowing us to characterize campaign reach and determine the optimal reward. We also use contract theory to examine how firms can implement incentives when customers’ numbers of friends are private information.</p>
+        <a class="text-link paper-link" href="mailto:txuay@connect.ust.hk?subject=Job%20market%20paper%20request%20%E2%80%94%20Aiming%20for%20All">Request paper <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <h3 class="group-heading">Publication</h3>
+      <article class="paper" aria-labelledby="network-title">
+        <p class="publication-label"><em>Management Science</em> <span>· 2026 · Advance online publication</span></p>
+        <h4 id="network-title">Analyzing Network Formation Using Big Data Analytics: A Study of Degree Distribution, Clustering Coefficient, Diameter, and Assortativity</h4>
+        <p class="authors">Hao Li, <strong>Tianzhuang Xu</strong><sup>*</sup>, Jin Qi, and Ying-Ju Chen</p>
+        <p class="author-note">* Corresponding author</p>
+        <p>An edge-based search model captures how networks form when people encounter interactions or content before discovering one another. The model generates a scale-free network structure, and we establish exponential convergence toward a stable state. We evaluate its predictions using simulations and real-world data.</p>
+        <a class="text-link" href="https://doi.org/10.1287/mnsc.2023.00475">Published article <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <h3 class="group-heading">Under review</h3>
+      <article class="paper" aria-labelledby="supply-title">
+        <h4 id="supply-title">When Multi-sourcing Backfires: Competition and Market Robustness in Supply Networks</h4>
+        <p class="authors"><strong>Tianzhuang Xu</strong>, Boer Ouyang, and Ying-Ju Chen</p>
+        <p class="publication-label">Under review at <em>Production and Operations Management</em>.</p>
+        <p>Additional sourcing relationships can weaken market robustness when firms respond strategically to disruption risk. In a network game with heterogeneous suppliers, we show that adding links can reduce expected output and worsen expected shortages. Selective connectivity can improve robustness by reallocating production after firms adjust their prices and orders.</p>
+        <a class="text-link paper-link" href="mailto:txuay@connect.ust.hk?subject=Paper%20request%20%E2%80%94%20When%20Multi-sourcing%20Backfires">Request paper <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <section class="work-in-progress" aria-labelledby="work-in-progress-heading">
+        <h3 class="group-heading" id="work-in-progress-heading">Work in progress</h3>
+        <article class="paper" aria-labelledby="learning-formation-title">
+          <h4 id="learning-formation-title">Learning Network Formation: Toward Autonomous Consistency</h4>
+          <p>Autonomous consistency concerns whether a learned model preserves the statistical properties of stochastic network growth when repeatedly applied to its own generated networks. Using analytically tractable benchmarks, we investigate whether transformer-based models achieve this consistency beyond the training horizon and how model design and training affect the reproduction of degree distributions, connectivity, and clustering.</p>
+        </article>
+        <article class="paper" aria-labelledby="diffusion-information-title">
+          <h4 id="diffusion-information-title">The Value of Network Information in Diffusion</h4>
+          <p>How much does knowing exact network connections add to diffusion predictions based on aggregate statistics? Using stochastic diffusion models, we examine when statistical descriptions provide reliable predictions and when detailed structure materially improves them. We also investigate how this value depends on the choice of initial seeds and what information is needed to guide diffusion interventions.</p>
+        </article>
+        <article class="paper" aria-labelledby="livestream-selling-title">
+          <h4 id="livestream-selling-title">Livestream Selling: Pricing, Presentation, and Buyer Competition</h4>
+          <p>Livestream sellers of inexpensive, one-of-a-kind items must allocate scarce airtime across products. Our dynamic model captures how presentation can build interest while waiting incurs attention costs and the risk of losing an item to another buyer. Buyers can purchase immediately, continue watching, wait for future products, or leave. We examine how posted prices and presentation durations shape purchase timing and revenue per unit of time.</p>
+        </article>
+      </section>
+
+      <details class="other-publications">
+        <summary>Earlier work in nonlinear dynamics <span class="toggle-mark" aria-hidden="true"></span></summary>
+        <div class="details-content">
+          <article>
+            <h4><a href="https://doi.org/10.1142/S0218127421501935">On Reliable Computation of Lifetime in Transient Chaos <span aria-hidden="true">↗</span></a></h4>
+            <p class="authors"><strong>Tianzhuang Xu</strong>, Bin Xie, and Shijun Liao</p>
+            <p><em>International Journal of Bifurcation and Chaos</em>, 31(13), 2150193, 2021.</p>
+          </article>
+          <article>
+            <h4><a href="https://doi.org/10.1063/5.0039688">Accurate Predictions of Chaotic Motion of a Free Fall Disk <span aria-hidden="true">↗</span></a></h4>
+            <p class="authors"><strong>Tianzhuang Xu</strong>, Jing Li, Zhihui Li, and Shijun Liao</p>
+            <p><em>Physics of Fluids</em>, 33(3), 037111, 2021.</p>
+          </article>
+        </div>
+      </details>
+    </section>
+
+    <section class="content-section" id="background" aria-labelledby="background-heading">
+      <div class="section-heading"><h2 id="background-heading"><span class="section-number">02 /</span> Background</h2></div>
+      <div class="background-grid">
+        <div>
+          <h3 class="group-heading">Education</h3>
+          <ol class="education-list">
+            <li><p class="degree">Ph.D., Industrial Engineering and Decision Analytics</p><p>HKUST · Expected 2027</p><p class="muted">Advisor: Ying-Ju Chen</p></li>
+            <li><p class="degree">M.E., Ocean Engineering</p><p>Shanghai Jiao Tong University · 2021</p></li>
+            <li><p class="degree">B.S., Engineering Mechanics</p><p>Shanghai Jiao Tong University · 2018</p></li>
+          </ol>
+        </div>
+        <div class="academic-activities">
+          <h3 class="group-heading">Selected presentations</h3>
+          <p><strong>POMS International Conference in China</strong><br>Xi’an, China · 2026<br><span class="muted">Strategic multisourcing and supply disruption risk</span></p>
+          <p><strong>INFORMS International Meeting</strong><br>Singapore · 2025<br><span class="muted">Reward design in word-of-mouth marketing</span></p>
+          <h3 class="group-heading service-heading">Service</h3>
+          <p>Ad hoc reviewer for <em>Manufacturing &amp; Service Operations Management</em>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div><p class="eyebrow">Contact</p><h2 id="contact-heading">Let’s connect.</h2><p>For research discussions and academic opportunities:</p><a class="contact-email" href="mailto:txuay@connect.ust.hk">txuay@connect.ust.hk <span aria-hidden="true">↗</span></a></div>
+      <div class="contact-location"><p>Department of Industrial Engineering<br>and Decision Analytics</p><p>The Hong Kong University of<br>Science and Technology<br>Clear Water Bay, Hong Kong</p><a class="text-link" href="assets/Tianzhuang_Xu_CV.pdf" download>Download CV <span aria-hidden="true">↓</span><span class="sr-only"> (PDF)</span></a></div>
+    </section>
+  </main>
+  <script src="network.js" defer></script>
+  <footer class="site-footer"><span>© 2026 Tianzhuang Xu</span><span>Updated November 2026</span><a href="#about">Back to top ↑</a></footer>
+</body>
+</html>
