@@ -19,6 +19,7 @@
 @media(prefers-reduced-motion:reduce){}
 @media print{.intro{display:block}.network-panel{display:none}.intro h1{font-size:35pt}.research-line{font-size:23pt}.research-line br{display:none}.bio{max-width:none;font-size:11pt}.featured-paper{background:none;padding:20px}.featured-paper:before,.featured-paper:after{display:none}.paper-short-title{font-size:24pt}.paper-subtitle{font-size:17pt}.contact-section{background:none}.contact-section h2{font-size:25pt}}
 
+.intro-actions{flex-wrap:wrap;row-gap:14px}
 .work-in-progress .paper + .paper{padding-top:28px}
 .work-in-progress .paper>p:last-child{margin-bottom:0}
 
